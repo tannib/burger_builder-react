@@ -1,0 +1,21 @@
+12. 
+Added order Button and made it disabled or not depending on the boolean 
+value of the key purchasable in the state. 
+Created a new method updatePurchaseState in the BurgerBuilder class component 
+which sums all the values of the ingredients keys in the state and in the end
+set the new state of purchasable to true if the sum is greater than zero.
+(Object.keys , maps, reduce, setState)
+
+13.
+Implementing Modal and Backdrop components which are shown by clicking the order button.
+The Modal component contains the Order Summary.
+We add a new boolean value in the state (purchasing) and we set it to false.
+We add two methods in the BurgerBuilder class component (addModalHandler 
+& removeModalHandler) which set the state of purchasing true or false.
+The two methods are called on clicked by the Build Controls button and 
+Backdrop component.
+
+14. 
+Adding two buttons in OrderSummary in order to let the user to continue or cancel the order.
+
+
